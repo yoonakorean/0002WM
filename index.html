@@ -99,7 +99,7 @@
      { "word": "樹", "korean": "나무", "audio": "audio/000202W.mp3", "choices": ["雨", "樹", "火"] },
      { "word": "年齡", "korean": "나이", "audio": "audio/000203W.mp3", "choices": ["國家", "年齡", "名字"] },
      { "word": "姊姊", "korean": "누나", "audio": "audio/000204W.mp3", "choices": ["哥哥", "姊姊", "弟弟"] },
-     { "word": "謠言", "korean": "루머", "audio": "audio/000205W.mp3", "choices": ["傳聞、謠言", "房間", "旅館"] },
+     { "word": "謠言", "korean": "루머", "audio": "audio/000205W.mp3", "choices": ["謠言", "房間", "旅館"] },
      { "word": "頭", "korean": "머리", "audio": "audio/000206W.mp3", "choices": ["髮型", "頭", "臉"] },
      { "word": "免費", "korean": "무료", "audio": "audio/000207W.mp3", "choices": ["免費", "不開心", "沒有人"] },
      { "word": "不", "korean": "아니요", "audio": "audio/000208W.mp3", "choices": ["對不起", "不", "謝謝"] },
@@ -119,7 +119,7 @@
     let current = 0;
     let correct = 0;
     let timerId;
-    const totalSeconds = shuffledQuestions.length * 8;
+    const totalSeconds = shuffledQuestions.length * 5;
     let timeLeft = totalSeconds;
 
     const audio = document.getElementById("audio");
